@@ -1,0 +1,25 @@
+/*
+CSS2
+*/
+list-style:none;/* 清除li标签 */
+visibility:hidden;
+visibility:visible;
+cursor:pointer;
+text-decoration:underline;/* 下划线 */
+font-weight:bold/normal;/* 加粗 */
+resize:none;/* 文本区固定尺寸 */
+outline:none;/* 删除文本区默认focus效果 */
+background:transparent;/* 背景透明 */
+height:expression(this.scrollHeight>500?"500px":"auto");/* max-height for IE */
+background:#383838 -webkit-radial-gradient(#666,#222);/* 放射性渐变 */
+word-wrap:break-word;/* 防止溢出 */
+background-attachment:fixed;/* 背景固定 */
+text-indent:2em;/* 首行缩进 */
+opacity:0.5;/* 透明度 */
+filter:alpha(opacity=50);/* 透明度 */
+
+/*
+CSS3
+*/
+text-shadow:1px 1px 2px #eee;/* 字体投影 */
+border-radius:3px;/* 圆角 */

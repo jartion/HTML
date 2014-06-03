@@ -1,0 +1,14 @@
+/*
+浮动层
+*/
+body{
+	background:url(about:blank);
+	background-attachment:fixed;
+}
+#box{
+	position:fixed;
+	top:50%;
+	left:50%;
+	_position:absolute;
+	_top:expression(documentElement.scrollTop+documentElement.clientHeight/2);
+}
